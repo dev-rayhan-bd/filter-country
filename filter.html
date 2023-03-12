@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.1/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+   <header>
+
+       <h1>All Countries Here</h1>
+   </header>
+    <main>
+        <section >
+            <select id="country-select" class="select select-bordered w-full max-w-xs">
+                <option disabled selected>Select Your Region</option>
+                <option value="Asia">Asia</option>
+                <option value="Africa">Africa</option>
+                <option value="America">America</option>
+                <option value="Oceania">Oceania</option>
+                <option value="Europe">Europe</option>
+              </select>
+              <select id="language" class="select select-bordered w-full max-w-xs">
+                <option disabled selected>Select a language</option>
+                <option value="Bengali">Bengali</option>
+                <option value="Arabic">Arabic</option>
+              </select>
+        </section>
+        <section id="country-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:px-12 ">
+            <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                </div>
+
+              
+        </section>
+
+    </main>
+    
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="filter.js"></script>
+</body>
+</html>
